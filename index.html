@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/slideshow.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2.2.2/dist/flickity.min.css"
+    />
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
+    <!-- script for download-->
+    <script src="/scripts/dbtn.js"></script>
+    <title>AtlasFN</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        AtlasFN
+        <div class="hero-caption">
+          AtlasFN is a private server that lets you have access to all cosmetics
+          in your locker and a lobby bot
+        </div>
+        <button class="download" onclick="downloadLauncherGithub();">
+          Download Now
+        </button>
+      </div>
+    </div>
+
+    <div class="features">
+      <h1 class="feature-text">Features</h1>
+      <div
+        class="carousel"
+        data-flickity
+        data-flickity-options='{ "wrapAround": true }'
+      >
+        <img
+          class="carousel-cell"
+          src="/img/carslimg1.png"
+          alt="Carousel Image 1"
+        />
+        <img
+          class="carousel-cell"
+          src="/img/carslimg2.png"
+          alt="Carousel Image 2"
+        />
+        <img
+          class="carousel-cell"
+          src="/img/carslimg3.png"
+          alt="Carousel Image 3"
+        />
+      </div>
+      <!---<div
+        class="carousel"
+        data-flickity
+        data-flickity-options='{ "wrapAround": true }'
+      >
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+      </div>--->
+    </div>
+    <!-- p class="gallery-caption">TEST</p--->
+    <div class="discord">Join our Discord Server!</div>
+    <div class="tutorial">Watch the Tutorial!</div>
+    <div class="downloads">Download our app!</div>
+    <div class="credits">Credits</div>
+  </body>
+</html>
